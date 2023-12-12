@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas dos Alunos</title>
+ 
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+  <!-- <header>
+
+  </header> -->
+
+  <div class="container-fluid">
+    <div class="row">
+      
+      <aside class="col-lg-3 sidebar">
+        <div class="profile-info text-center">
+          <img src="image/senai.jpg" alt="Imagem">
+         
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-house-door"></i> Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-person-plus"></i> Cadastro
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-person"></i> Professores
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-people"></i> Alunos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-people-fill"></i> Funcionários
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-box-arrow-right"></i> Sair
+            </a><br>
+          </li>
+<li id="imagem2">
+  <img src="image/usuario.png" alt="Imagem">
+</li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-box-arrow-right"></i> Edmilsom Cruz
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-box-arrow-right"></i> Administrador
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Conteúdo principal -->
+      <main class="col-lg-9 mt-lg-0 mt-4">
+        <!-- Tabela de notas -->
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Nome</th>
+              <th scope="col">N1</th>
+              <th scope="col">N2</th>
+              <th scope="col">N3</th>
+              <th scope="col">N4</th>
+              <th scope="col">N5</th>
+              <th scope="col">Média Final</th>
+              <th scope="col">Situação</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td>Aluno 1</td>
+              <td>8.0</td>
+              <td>7.5</td>
+              <td>6.0</td>
+              <td>9.0</td>
+              <td>7.8</td>
+              <td>7.7</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 2</td>
+              <td>6.0</td>
+              <td>7.5</td>
+              <td>8.0</td>
+              <td>7.5</td>
+              <td>7.5</td>
+              <td>7.3</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 3</td>
+              <td>7.0</td>
+              <td>6.5</td>
+              <td>9.0</td>
+              <td>8.0</td>
+              <td>5.9</td>
+              <td>7.3</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 4</td>
+              <td>4.0</td>
+              <td>3.5</td>
+              <td>2.0</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>3.5</td>
+              <td>Reprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 5</td>
+              <td>6.0</td>
+              <td>9.5</td>
+              <td>10.0</td>
+              <td>9.0</td>
+              <td>5.8</td>
+              <td>8.0</td>
+              <td>Aprovado</td>
+            </tr>
+
+            <tr>
+              <td>Aluno 6</td>
+              <td>8.0</td>
+              <td>7.5</td>
+              <td>6.0</td>
+              <td>9.0</td>
+              <td>7.8</td>
+              <td>7.7</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 7</td>
+              <td>6.0</td>
+              <td>7.5</td>
+              <td>8.0</td>
+              <td>7.5</td>
+              <td>7.5</td>
+              <td>7.3</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 8</td>
+              <td>7.0</td>
+              <td>6.5</td>
+              <td>9.0</td>
+              <td>8.0</td>
+              <td>5.9</td>
+              <td>9.5</td>
+              <td>Aprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 9</td>
+              <td>4.0</td>
+              <td>3.5</td>
+              <td>2.0</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>2.0</td>
+              <td>Reprovado</td>
+            </tr>
+            <tr>
+              <td>Aluno 10</td>
+              <td>6.0</td>
+              <td>9.5</td>
+              <td>10.0</td>
+              <td>9.0</td>
+              <td>5.8</td>
+              <td>6.9</td>
+              <td>Aprovado</td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
